@@ -1,0 +1,235 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Oi!",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "website",
+      "patterns": ["website",
+       "College official website"
+      ],
+      "responses": [
+        "https://www.jainuniversity.ac.in/"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "college",
+      "patterns": [
+        "Which college?",
+        "What is your college name?",
+        "Which is your home?",
+        "Where do you live?"
+      ],
+      "responses": [
+        "Jain University,Bangalore"
+        
+      ]
+    },
+    {
+      "tag": "academics",
+      "patterns": [
+        "academics",
+        "admission availabe"
+      ],
+      "responses": [
+        "Post Graduation Courses Available are \n\t1. MCA General\n\t2. MCA ISMS\n\t3. MCA SCT\n\t4. M.B.A\n\t5. MSC IT"
+      ]
+    },
+    {
+      "tag": "branch",
+      "patterns": [
+        "total branches in college?",
+        "How many branches are offered in Jain University?"
+      ],
+      "responses": [
+        "Jain University offers Masters in Computer Applicaton with Specialization in Storage and Cloud Technology \n & Information and Security Services"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What is total fees?",
+        "Fees for MCA",
+        "Fees for CSE",
+        "Fees for MSC",
+        "Any scholarship?"
+      ],
+      "responses": [
+        "Management fees is 1,70,000 per course and 50% scholarship is available for government admission \n and other scholarships are applicable for cap round students."
+      ]
+    },
+    {
+      "tag": "cources",
+      "patterns": [
+        "which courses are offered in Jain?",
+        "Which is the best course offered?",
+        "Recommend some courses?"
+      ],
+      "responses": [
+        "MCA GENERAL, MCA SCT,MCA ISMS",
+        "MSC IT",
+        "MBA"
+      ]
+    },
+    {
+      "tag": "hod_ai",
+      "patterns": [
+        "who is HOD of MCA?",
+        "MCA hod?",
+        "MCA HOD?"
+      ],
+      "responses": [
+        "\tDr. BHUVANA J\n\tHead, Department of Computer Science and Information Technology, JAIN (Deemed-to-be University)"
+      ]
+    },
+    {
+      "tag": "director",
+      "patterns": [
+        "director name"
+      ],
+      "responses": [
+        "Dr. Chenraj Roychand"
+      ]
+    },
+    {
+      "tag": "bot_info",
+      "patterns": [
+        "who are you",
+        "tell something about yourself"
+      ],
+      "responses": [
+        "I was created as a part of final year project.\n\tI was developed by Aswin Kuriakose(MCA SCT graduate)\n\tunder the guidance of Dr. MURUGAN R, Project Co-Ordinator."
+      ]
+    },
+    {
+      "tag": "chairman",
+      "patterns": [
+        "chairman name"
+      ],
+      "responses": [
+        "Dr. Chenraj Roychand"
+      ]
+    },
+    {
+      "tag": "ranking",
+      "patterns": [
+        "what is the rank of Jain University?",
+        "ranking of Jain?",
+        "jain college ranking?"
+      ],
+      "responses": [
+        "\tNIRF Ranking (2022) - JAIN (Deemed-to-be University) ranks 79th, the Faculty of Engineering and Technology secures 115th,\n\t and CMS Business School secures 96th position in India"
+      ]
+    },
+    {
+      "tag": "info",
+      "patterns": [
+        "Jain College info?",
+        "info about Jain University",
+        "establishment"
+      ],
+      "responses": [
+        "Established in 1990, Jain University originates from Sri Bhagawan Mahaveer Jain College (SBMJC), established by the founder\n\t and chairman of JGI GROUP, Dr.Chenraj Roychand in 1990.It was conferred deemed to be university status in 2009"
+      ]
+    },
+    {
+      "tag": "dean",
+      "patterns": [
+        "Who is dean of training and placement?"
+      ],
+      "responses": [
+        "Dr. R. SUCHITHRA"
+      ]
+    },
+    {
+      "tag": "ai_fac",
+      "patterns": [
+        "faculty for MCA?"
+      ],
+      "responses": [
+        "\tDr. BHUVANA J, Head, Department of Computer Science and Information Technology,\n\t Dr. MURUGAN R, Project Co-Ordinator, Department of Information Technology"
+      ]
+    },
+    {
+      "tag": "avg_pkg",
+      "patterns": [
+        "average package for Post Graduation Jobs?",
+        "What is avg package?"
+      ],
+      "responses": [
+        "average package is 3.4 Lakhs"
+      ]
+    },
+    {
+      "tag": "h_pkg",
+      "patterns": [
+        "highest package?",
+        "What is highest package for MCA?"
+      ],
+      "responses": [
+        "highest package is 16 Lakhs"
+      ]
+    },
+    {
+      "tag": "intake",
+      "patterns": [
+        "intake",
+        "What is intake of MCA"
+      ],
+      "responses": [
+        "Intake is 60 %"
+      ]         
+    },
+    {
+      "tag": "vision",
+      "patterns": [
+        "what is the vision of Jain University?",
+        "Jain College vision?",
+        "vision and mission?"
+      ],
+      "responses": [
+        "To foster human development through excellence in Quality Education, Research, and Entrepreneurial Development.\n\t To provide quality education, creating human assets / manpower and intellectual capital."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
